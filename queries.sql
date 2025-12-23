@@ -24,7 +24,6 @@ WHERE status = 'available'
 
 -- query 4
 SELECT
-  v.vehicle_id,
   v.name AS vehicle_name,
   COUNT(b.booking_id) AS total_bookings
 FROM "Vehicles" v
